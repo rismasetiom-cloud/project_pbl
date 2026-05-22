@@ -2,6 +2,7 @@
 // Buka kunci session
 session_start();
 
+
 // Cek apakah yang masuk benar-benar admin
 if($_SESSION['role'] != 'admin'){
     header("Location: ../login/login.php");
